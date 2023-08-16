@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "projects/*",
+    "components/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwineo/monorepo-workspaces.git"
+  },
+  "author": "Edwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwineo/monorepo-workspaces/issues"
+  },
+  "homepage": "https://github.com/edwineo/monorepo-workspaces#readme"
+}
